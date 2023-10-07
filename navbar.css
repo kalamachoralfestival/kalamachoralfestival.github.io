@@ -25,3 +25,23 @@
 .eh-navbar-anchor {
     color: rgb(0, 106, 255);
 }
+
+.eh-footer {
+    height: 25vh;
+    background-color: rgb(26, 27, 54);
+    color: rgb(80, 80, 80);
+    text-align: center;
+    position: relative;
+}
+
+.eh-outer {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.eh-heart {
+    color: rgb(255, 119, 132);
+}
