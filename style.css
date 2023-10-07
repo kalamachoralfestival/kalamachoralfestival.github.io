@@ -1,0 +1,41 @@
+
+.eh-landing {
+    height: 100vh;
+    background: url(images/kauai.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.eh-title {
+    font-size: 95px;
+    color: #cacaca;
+}
+
+.eh-lower-title {
+    font-size: 75px;
+    color: #cacaca;
+}
+
+.eh-section {
+    height: 100vh;
+}
+
+.eh-image {
+    border-radius: 8px;
+}
+
+.eh-courtesy {
+    color: #cacaca;
+}
+
+.eh-text {
+    color: #a7a7a7;
+    font-size: 72px;
+}
+
+.eh-sponsor {
+    color: #cacaca;
+    font-size: 22px;
+}
