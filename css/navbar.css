@@ -43,5 +43,28 @@
 }
 
 .eh-heart {
-    color: rgb(131, 222, 140);
+    color: rgb(163, 205, 167);
+}
+
+@media screen and (max-width: 500px) {
+    .eh-navbar-item a {
+        padding: 12px;
+        padding-left: 12px;
+    }
+}
+
+@media screen and (max-width: 399px) {
+    .eh-navbar {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 100vw;
+        height: 90px;
+        position: fixed;
+        background-color: rgba(255, 255, 255, .15);  
+        backdrop-filter: blur(8px);
+        padding-bottom: 20px;
+        z-index: 100;
+    }
 }

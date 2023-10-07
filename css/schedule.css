@@ -36,3 +36,15 @@ body {
 .eh-link {
     color: #8e8e8e;
 }
+
+@media screen and (max-width: 450px) and (min-width: 366px){
+    .eh-email {
+        font-size: x-large;
+    }
+}
+
+@media screen and (max-width: 365px){
+    .eh-email {
+        font-size: medium;
+    }
+}
