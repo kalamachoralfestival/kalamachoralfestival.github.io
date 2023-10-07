@@ -1,52 +1,38 @@
-
 body {
     background-color: #f2f2f2;
 }
 
 .eh-landing {
-    height: 100vh;
+    height: 35vh;
     background: url(images/kauai.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    position: relative;
+    min-height: 250px;
 }
 
 .eh-title {
-    font-size: 95px;
+    font-size: 5vw;
     color: #cacaca;
     text-shadow: 1px 1px 5px #000;
     padding-top: 9rem !important;
+    position: absolute;
 }
 
-.eh-lower-title {
-    font-size: 75px;
-    color: #cacaca;
-    text-shadow: 1px 1px 5px #000;
-}
-
-.eh-section {
-    height: 100vh;
-}
-
-.eh-image {
-    border-radius: 8px;
-}
-
-.eh-courtesy {
-    color: #c1c1c1;
-}
-
-.eh-text {
+.eh-chunk {
     color: #8e8e8e;
-    font-size: 72px;
 }
 
-.eh-sponsor {
-    color: #c1c1c1;
-    font-size: 22px;
+.eh-october {
+    color: orange;
+}
+
+.eh-july {
+    color: rgb(62, 62, 236);
 }
 
 .eh-link {
-    color: #c1c1c1;
+    color: #8e8e8e;
 }
