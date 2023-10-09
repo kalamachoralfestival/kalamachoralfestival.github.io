@@ -26,9 +26,8 @@ body {
 }
 
 .eh-section {
-    /* height: 100vh; */
-    /* overflow: auto; */
     min-height: 100vh;
+    border-bottom: #c1c1c1;
 }
 
 .eh-image {
@@ -51,6 +50,26 @@ body {
 
 .eh-link {
     color: #c1c1c1;
+}
+
+.eh-flier {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: solid #c1c1c1;
+    border-bottom: none;
+    border-radius: 5px;
+}
+
+.eh-image-2 {
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width:767px) {
+    .eh-flier {
+        border: none;
+    }
 }
 
 @media screen and (max-width: 625px) {

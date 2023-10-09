@@ -32,6 +32,7 @@
     color: rgb(80, 80, 80);
     text-align: center;
     position: relative;
+    min-height: 125px;
 }
 
 .eh-outer {
