@@ -56,7 +56,7 @@ body {
     justify-content: center;
     align-items: center;
     display: flex;
-    border: solid #c1c1c1;
+    border: solid #c1c1c1 3px;
     border-bottom: none;
     border-radius: 5px;
 }
