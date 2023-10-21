@@ -31,6 +31,7 @@ body {
 }
 
 .eh-image {
+    max-width: 500px;
     border-radius: 8px;
 }
 
@@ -82,6 +83,16 @@ body {
     .eh-section {
         padding-bottom: 35px;
     }
+}
+
+@media screen and (max-height: 500px) {
+    .eh-title {
+        font-size: 60px;
+    }
+    .eh-lower-title {
+        font-size: 45px;
+    }
+    
 }
 
 @media screen and (max-width: 399px) {
